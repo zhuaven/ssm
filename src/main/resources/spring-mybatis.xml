@@ -52,7 +52,7 @@
         <property name="basePackage" value="com.ssm.demo.dao" />
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
         <!-- 当包下的类被这个注解@Repository标示的时候才会被扫描 -->
-        <property name="annotationClass" value="org.springframework.stereotype.Repository" />
+        <!--<property name="annotationClass" value="org.springframework.stereotype.Repository" />-->
     </bean>
 
     <!-- (事务管理)transaction manager, use JtaTransactionManager for global tx -->
